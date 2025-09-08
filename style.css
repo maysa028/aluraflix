@@ -2,9 +2,9 @@
 :root {
     --preto: #000;
     --branco: #fff;
-    --lilas-claro: #eb76db;
+    --roxo-escuro: #4203a8;
     --azul-médio: #2f4dd1;
-    --amarelo:#cfe80d;
+    --azul-claro:#0daae8;
 }
 /*corpo da página*/
 body {
@@ -18,11 +18,11 @@ header {
     border-color: var(--branco);/*cor da borda*/
     padding: 20px;/*espaçamento interno*/
     font-size: 32px;/*tamanho da fonte*/
-    color: var(--amarelo);/*cor da fonte*/
+    color: var(--azul-claro);/*cor da fonte*/
 }
 
 .chamada-texto {
-    background-color: var(--amarelo);
+    background-color: var(--azul-claro);
     color: var(--preto);
     margin-right: 20px;/*margem a direita*/
 }
@@ -54,12 +54,12 @@ img {
 
 
 .recomendacoes {
-    background-color: var(--lilas-claro);
+    background-color: var(--roxo-escuro);
     margin-left: 30px;/*margem a direita*/
     margin-right: 30px;/*margem a direita*/
 }
 .outras-recomendacoes {
-    background-color: var(--amarelo);
+    background-color: var(--azul-claro);
     display: flex;
     overflow-x: auto;
     gap: 20px;
